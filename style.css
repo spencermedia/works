@@ -1,0 +1,271 @@
+/*
+
+Font: Raleway;
+Colors:
+1 Some kind of red: #ff5757
+2 Dark grey: #111
+3 White: #fff
+
+*/
+
+/* --------------------------
+        Basic Setup
+-------------------------- */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #111;
+    font-family: "Raleway", sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/* --------------------------
+            Header
+-------------------------- */
+
+header {
+    width: 100%;
+    background-color: #fff;
+    color: #111;
+}
+
+.heading-div {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+    align-items: ;
+}
+
+.heading-div img {
+    width: 120px;
+}
+
+.nav-menu a {
+    color: #111;
+    padding: 15px 10px;
+    margin: 0 20px;
+    font-size: 21px;
+    transition: border-bottom .3s ease;
+}
+
+.nav-menu a:hover {
+    border-bottom: 3px solid #ff5757;
+}
+
+/* Sticky navigation */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.94);
+}
+
+/* Mobile navigation */
+
+.hamburger-menu {
+    display: none;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.hamburger {
+    width: 30px;
+    height: 3px;
+    background-color: #111;
+    border-radius: 10%;
+    margin: 5px;
+}
+
+/* --------------------------
+        Header section
+-------------------------- */
+
+.header-section {
+    background-image: url(../img/cover.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
+}
+
+/* --------------------------
+        About section
+-------------------------- */
+
+.about-me {
+    margin-top: 100px;
+}
+
+.section-heading {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #111;
+    margin: 10px 0;
+}
+
+.about-me p {
+    margin: 70px 0;
+}
+
+.my-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    width: 30%;
+}
+
+.image img {
+    width: 100%;
+}
+
+.image h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+/* --------------------------
+        Portfolio section
+-------------------------- */
+
+.portfolio {
+    margin-top: 100px;
+}
+
+.portfolio-items {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    margin-top: 70px;
+}
+
+.portfolio-items img {
+    width: 32%;
+    margin-bottom: 30px;
+}
+
+/* --------------------------
+        Blog section
+-------------------------- */
+
+.blog {
+    margin-top: 80px;
+}
+
+.blog-text {
+    margin-top: 70px;
+}
+
+.blog-text img {
+    width: 300px;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.blog-text p {
+    font-size: 15px;
+}
+
+/* --------------------------
+        Contact section
+-------------------------- */
+
+.contact {
+    margin-top: 100px;
+}
+
+form {
+    text-align: center;
+    margin-top: 55px;
+}
+
+form label {
+    font-size: 18px;
+    color: #111;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+form input, form textarea {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #111;
+    width: 70%;
+    padding: 7px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+form textarea {
+    resize: none;
+}
+
+button {
+    background-color: #111;
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 2px solid transparent;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .3s ease-out;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #ff5757;
+    border: 2px solid #ff5757;
+}
+
+/* --------------------------
+            Footer
+-------------------------- */
+
+footer {
+    background-color: #111;
+    color: #fff;
+    margin-top: 70px;
+}
+
+footer p {
+    text-align: center;
+    padding: 20px;
+}
