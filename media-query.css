@@ -18,7 +18,7 @@
 }
 
 @media all and (max-width: 768px) {
-        .heading-div {
+    .heading-div {
         flex-direction: column;
     }
     .nav-menu {
@@ -39,12 +39,6 @@
     }
     .portfolio-items img {
         width: 47%;
-    }
-    .blog-text img {
-        float: none;
-        padding: 0;
-        width: 100%;
-        margin-bottom: 25px;
     }
     form input, form textarea {
         width: 95%;
@@ -68,9 +62,6 @@
     .nav-menu a {
         font-size: 24px;
         margin: 20px;
-    }
-    .hamburger-menu {
-        display: inline;
     }
 }
 
